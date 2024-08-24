@@ -1,0 +1,8 @@
+.app__heading {
+  color: var(--forest-green);
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 100;
+  text-shadow: 3px 3px 9px var(--forest-green);
+  text-align: center;
+}

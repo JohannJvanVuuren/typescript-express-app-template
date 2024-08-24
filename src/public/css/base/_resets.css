@@ -1,0 +1,23 @@
+/* Global reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting 1rem = 10px based on a normal browser font-size. This is for ease of reference
+ and responsiveness */
+html {
+  font-size: 62.5%;
+  color: var(--charcoal-of-white);
+  font-family: 'Lato', sans-serif;
+}
+
+/* Global settings for the body parent */
+body {
+  background-color: var(--charcoal-dark);
+  min-height: 100vh;
+  max-width: 100vw;
+}
